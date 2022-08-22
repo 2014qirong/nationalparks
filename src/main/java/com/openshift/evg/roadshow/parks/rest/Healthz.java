@@ -15,6 +15,6 @@ public class Healthz {
 
     @RequestMapping(method = RequestMethod.GET)
     public String healthz() {
-        return "OK";
+        return "OK-qirong";
     }
 }
